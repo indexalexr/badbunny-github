@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.promo{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.promo a{
+    color: white;
+    text-decoration: none;
+}
+
+.promo a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+/*
+
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+
+.bienvenidos{
+    border: solid 1px black;
+}
