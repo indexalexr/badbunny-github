@@ -2,20 +2,57 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: 'badbunny';
+    src: url('../FONT/againts.otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    body{ 
+    font-family: 'badbunny';
+}
 .promo{
     background: black;
     color: white;
     text-align: center;
 }
-.promo a{
+.promo .moscow{
     color: white;
     text-decoration: none;
 }
 
-.promo a:hover{
+.promo .moscow:hover{
     color: crimson;
     text-decoration: none;
 }
+
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: crimson;
+}
+
 
 /*
 
@@ -29,4 +66,5 @@
 
 .bienvenidos{
     border: solid 1px black;
+    text-align: center;
 }
